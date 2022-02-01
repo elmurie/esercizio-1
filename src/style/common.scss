@@ -40,10 +40,11 @@ a {
             font-family: $secondaryFontFamily;
         }
         &__title {
-            width: 85%;
+            width: 86%;
             margin: 10px auto 20px auto;
             font-size: $largestFont;
             font-family: $tertiaryFontFamily;
+            letter-spacing: 2px;
         }
         &__action {
             margin : auto;
@@ -71,4 +72,3 @@ a {
         right: 6%;
     }
 }
-
