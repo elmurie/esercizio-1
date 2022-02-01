@@ -1,4 +1,4 @@
-# wipitalia_exercise
+# esercizio_1
 
 A ES6 module built with Webpack CLI and its plugins, using SASS as a pre-compiler.  
 
