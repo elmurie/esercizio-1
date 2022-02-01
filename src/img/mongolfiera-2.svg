@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="143.549" height="211.228" viewBox="0 0 143.549 211.228">
+  <defs>
+    <filter id="Tracciato_12679" x="52.593" y="153.336" width="38.753" height="44.919" filterUnits="userSpaceOnUse">
+      <feOffset dx="4" dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.737"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Unione_2" x="0" y="0" width="143.549" height="211.228" filterUnits="userSpaceOnUse">
+      <feOffset dx="4" dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-opacity="0.737"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <path id="Tracciato_12679-2" data-name="Tracciato 12679" d="M77.829,196.16a3.877,3.877,0,0,0,7.753,0c0-2.141-3.876-9.473-3.876-9.473s-3.877,7.332-3.877,9.473" transform="translate(-77.829 -186.687)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="-4.269" y1="3.292" x2="-4.211" y2="3.292" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffd25b"/>
+      <stop offset="0.28" stop-color="#ffd25b"/>
+      <stop offset="0.405" stop-color="#eebf52"/>
+      <stop offset="0.658" stop-color="#c28e3c"/>
+      <stop offset="0.903" stop-color="#945a25"/>
+      <stop offset="1" stop-color="#945a25"/>
+    </linearGradient>
+  </defs>
+  <g id="mongolfiera-2" transform="translate(11.5 11.5)">
+    <g transform="matrix(1, 0, 0, 1, -11.5, -11.5)" filter="url(#Unione_2)">
+      <path id="Unione_2-2" data-name="Unione 2" d="M56.47,180.228H45.581L34.169,153.989H56.426l.044-.083.044.083H78.379L66.968,180.228Zm37.1-75.779L77.054,151.33Zm-74.594,0L35.494,151.33Zm37.3,11.366v0Zm0-3.265H56A56.274,56.274,0,0,1,56.274,0h0a56.275,56.275,0,0,1,0,112.549h0Z" transform="translate(11.5 11.5)" fill="#b11c18" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    </g>
+    <g id="Raggruppa_1707" data-name="Raggruppa 1707">
+      <path id="Tracciato_12680" data-name="Tracciato 12680" d="M138.492,59.48A56.275,56.275,0,0,0,82.217,3.2V115.754A56.275,56.275,0,0,0,138.492,59.48" transform="translate(-25.943 -3.205)" fill="#b11c18"/>
+      <path id="Tracciato_12681" data-name="Tracciato 12681" d="M71.4,3.2a56.274,56.274,0,0,0,0,112.548V3.2Z" transform="translate(-15.129 -3.205)" fill="#f04c36"/>
+      <path id="Tracciato_12682" data-name="Tracciato 12682" d="M113.007,59.48c0,31.079-17.064,56.275-38.114,56.275S36.779,90.559,36.779,59.48,53.844,3.2,74.893,3.2s38.114,25.2,38.114,56.275" transform="translate(-18.619 -3.205)" fill="#f7f1e7"/>
+      <path id="Tracciato_12683" data-name="Tracciato 12683" d="M92.973,59.48c0,31.079-5.961,56.275-13.315,56.275S66.343,90.559,66.343,59.48,72.3,3.2,79.658,3.2,92.973,28.4,92.973,59.48" transform="translate(-23.384 -3.205)" fill="#f6957d"/>
+      <line id="Linea_196" data-name="Linea 196" x2="16.517" y2="46.882" transform="translate(18.977 104.448)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.327" stroke-dasharray="0 2.653"/>
+      <line id="Linea_197" data-name="Linea 197" x1="16.517" y2="46.882" transform="translate(77.054 104.448)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.327" stroke-dasharray="0 2.653"/>
+      <line id="Linea_198" data-name="Linea 198" y1="33.404" transform="translate(56.274 115.814)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.327" stroke-dasharray="0 2.653"/>
+      <path id="Tracciato_12684" data-name="Tracciato 12684" d="M55.864,186.786l11.412,26.239H88.663l11.412-26.239Z" transform="translate(-21.695 -32.797)" fill="#b11c18"/>
+      <g id="Raggruppa_1697" data-name="Raggruppa 1697" transform="translate(52.593 153.906)">
+        <g id="Raggruppa_1706" data-name="Raggruppa 1706" transform="translate(0 0)" clip-path="url(#clip-path)">
+          <rect id="Rettangolo_1125" data-name="Rettangolo 1125" width="14.502" height="15.219" transform="translate(-6.565 5.471) rotate(-39.806)" fill="url(#linear-gradient)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
