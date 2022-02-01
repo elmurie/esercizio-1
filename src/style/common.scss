@@ -14,13 +14,16 @@ a {
     background-color: $tertiaryFontColor;
     padding: 15px 25px;
     font-weight: 800;
+    font-family: $secondaryFontFamily;
 }
 
 .header {
-    background-image: url(../img/fao-schwarz-2.png), linear-gradient(to bottom, rgba(0, 0, 0, .8), rgba(0, 0, 0, 0));;
+    width: 100%;
+    background-image: url(../img/fao-schwarz-2.png), linear-gradient(to bottom, rgba(22, 25, 60, 1), rgba(22, 25, 60, 0));
     background-size: cover;
     background-position: center bottom;
     background-blend-mode: multiply;
+    background-repeat: no-repeat;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -34,10 +37,13 @@ a {
         color: $secondaryFontColor;
         &__sub {
             font-weight: 800;
+            font-family: $secondaryFontFamily;
         }
         &__title {
-            margin : 10px 0 20px 0;
+            width: 85%;
+            margin: 10px auto 20px auto;
             font-size: $largestFont;
+            font-family: $tertiaryFontFamily;
         }
         &__action {
             margin : auto;
@@ -48,22 +54,15 @@ a {
         }
     }
     &__videolink {
-        &__triangle {
-            width: 0;
-            height: 0;
-            border-style:solid;
-            border-width: 50px 0 50px 100px ;
-            border-color:  transparent transparent transparent #d9534f ;
-            position: relative;
-            &::after {
-                content: '';
-                border-style:solid;
-                border-width: 0 40px 40px;
-                border-color: transparent transparent #96ceb4;
-                position: absolute;
-                top: 0;
-                left: 0;
-            }
+        position: absolute;
+        bottom : 3%;
+        left: 5%;
+        display: flex;
+        &__text {
+            margin-left: 20px;
+            text-decoration: underline;
+            font-family: $primaryFontFamily;
+
         }
     }
     &__hotairballoon {

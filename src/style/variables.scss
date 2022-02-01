@@ -10,5 +10,19 @@ $mediumFont : 15px;
 
 
 // Font-families
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@700&display=swap');
+@font-face {
+    font-family: 'Futura7';
+    src: url('../font/futura_n7.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Futura5';
+    src: url('../font/futura_n5.woff2') format('woff2');
+}
+
+$primaryFontFamily : 'Futura5', sans-serif;
+$secondaryFontFamily : 'Futura7', sans-serif;
+$tertiaryFontFamily : 'Bodoni Moda', serif;
+
 
 
