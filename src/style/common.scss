@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: $secondaryFontColor;
+}
+
+
+.btn {
+    background-color: $tertiaryFontColor;
+    padding: 15px 25px;
+    font-weight: 800;
+}
+
+.header {
+    background-image: url(../img/fao-schwarz-2.png), linear-gradient(to bottom, rgba(0, 0, 0, .8), rgba(0, 0, 0, 0));;
+    background-size: cover;
+    background-position: center bottom;
+    background-blend-mode: multiply;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    height: 48.125rem; // debug, da spostare in media query
+    &__text {
+        width: 50%;
+        color: $secondaryFontColor;
+        &__sub {
+            font-weight: 800;
+        }
+        &__title {
+            margin : 10px 0 20px 0;
+            font-size: $largestFont;
+        }
+        &__action {
+            margin : auto;
+            width: 176px;
+            .btn {
+                font-size: $mediumFont;
+            }
+        }
+    }
+    &__videolink {
+        &__triangle {
+            width: 0;
+            height: 0;
+            border-style:solid;
+            border-width: 50px 0 50px 100px ;
+            border-color:  transparent transparent transparent #d9534f ;
+            position: relative;
+            &::after {
+                content: '';
+                border-style:solid;
+                border-width: 0 40px 40px;
+                border-color: transparent transparent #96ceb4;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+        }
+    }
+    &__hotairballoon {
+        position: absolute;
+        bottom: -4%;
+        right: 6%;
+    }
+}
+
